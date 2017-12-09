@@ -1,0 +1,12 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = tole
+#	email = tole@home-mba.local
+[user]
+	name = tole
+	email = you@example.com
+[alias]
+	opendiff = difftool -y --dir-diff --tool=opendiff master
+	vimdiff = difftool -y --tool=vimdiff
+	
