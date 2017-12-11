@@ -7,7 +7,6 @@ chkconfig httpd on
 service httpd stop
 
 rm -rf /var/www/html
-#!/bin/bash
 ln -s /vagrant /var/www/html
 
 service httpd start
